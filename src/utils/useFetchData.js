@@ -10,7 +10,7 @@ const useFectchData=()=>{
          const json= await data.json();
          console.log(json);
          const restaurants =
-      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];
+       json?.data?.cards?.[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];
       console.log(restaurants);
       setListOfRestaurants(restaurants);
     }
