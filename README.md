@@ -1,4 +1,4 @@
-# 🍱 Food Ordering Web Page - Inspired from swiggi 
+# 🍱 Food Ordering Web Page - using swiggi API
 
 This project is a frontend food ordering web application built using **React** and **Tailwind CSS**, with **Redux** integrated for managing the cart functionality. It was developed to strengthen my skills in building component-based UIs and implementing global state using Redux Toolkit.
 
